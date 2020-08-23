@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navalert-container {
+  position: absolute;
+  z-index: 1; /* element was behind other content */
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.alert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+}
+
+.site-wide-alert {
+  border-radius: 0;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #ffd85e;
+  border-color: #ffd85e;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+  font-weight: bold;
+}
+
+.navbar .navbar-collapse {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.navbar .navbar-toggler {
+  border: 0;
+}
+
+.callout-container {
+  background: url("../images/whiskey-glass.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* to darken image */
+.opaque-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.jumbotron {
+  background-color: #9bafb100;
+}
+
+.jumbotron .lead {
+  color: #d2dfe0;
+}
+
+.jumbotron-header {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.jumbotron small {
+  color: #d2dfe0;
+  font-size: 70%;
+  font-style: italic;
+}
+
+/* block divider */
+.jumbotron .block-divider {
+  background-color: #db4135;
+}
+
+.features-container {
+  background-color: #db4135;
+  color: #d2dfe0;
+  padding-bottom: 60px;
+  text-align: justify;
+}
+
+.features-container i {
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+.features .btn-white {
+  color: #db4135;
+  background-color: #d2dfe0;
+  border-color: #d2dfe0;
+  min-width: 100px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+	margin-bottom: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.feature {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.block-divider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #6c6b6b;
+}
+
+.section-heading {
+  text-align: center;
+  margin: 80px 0 40px 0;
+}
+
+/* buttons */
+/* button shape & style */
+.btn--cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+/* button colors */
+.btn--red {
+  color: rgb(255, 255, 255);
+  background-color: rgb(224, 54, 54);
+  border-color: rgb(224, 54, 54);
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(138 14 14);
+  border-color: rgb(138 14 14);
+}
+
+.btn-white:hover {
+	background-color: #c7b2b2;
+}
